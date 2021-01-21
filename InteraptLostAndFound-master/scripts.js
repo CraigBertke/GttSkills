@@ -2,12 +2,18 @@
 // Initialize Firebase
   // Initialize Firebase
   let config = {
-    apiKey: "AIzaSyCZnmgHZG4SgzgdhR8mvXPyMiYwgNJfG_Q",
-    authDomain: "lostfound-b80fc.firebaseapp.com",
-    databaseURL: "https://lostfound-b80fc.firebaseio.com",
-    projectId: "lostfound-b80fc",
-    storageBucket: "lostfound-b80fc.appspot.com",
-    messagingSenderId: "919579258670"
+    apiKey: "AIzaSyBQjAT7IUTmV6-rbVBj3g12HeCYDLD1AW4",
+    authDomain: "gttskills.firebaseapp.com",
+    projectId: "gttskills",
+    storageBucket: "gttskills.appspot.com",
+    messagingSenderId: "858339293867",
+    appId: "1:858339293867:web:d7320b7955981e169915ee",
+    measurementId: "G-MG55Z2EG0T"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
   };
   firebase.initializeApp(config);
 
