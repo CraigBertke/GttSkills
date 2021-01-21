@@ -9,18 +9,27 @@ I changed it.
 It is now connected to a FireBase database.....I think.
 </body>
 
-<!-- This code came from FireBase in order to connect to the database we created there -->
-<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-analytics.js"></script>
+
 <script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyCZnmgHZG4SgzgdhR8mvXPyMiYwgNJfG_Q",
-    authDomain: "lostfound-b80fc.firebaseapp.com",
-    databaseURL: "https://lostfound-b80fc.firebaseio.com",
-    projectId: "lostfound-b80fc",
-    storageBucket: "",
-    messagingSenderId: "919579258670"
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBQjAT7IUTmV6-rbVBj3g12HeCYDLD1AW4",
+    authDomain: "gttskills.firebaseapp.com",
+    projectId: "gttskills",
+    storageBucket: "gttskills.appspot.com",
+    messagingSenderId: "858339293867",
+    appId: "1:858339293867:web:d7320b7955981e169915ee",
+    measurementId: "G-MG55Z2EG0T"
   };
-  firebase.initializeApp(config);
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
 </script>
 </html>
