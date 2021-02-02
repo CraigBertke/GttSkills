@@ -2,12 +2,12 @@
 // Initialize Firebase
   // Initialize Firebase
   let config = {
-    apiKey: "AIzaSyBQjAT7IUTmV6-rbVBj3g12HeCYDLD1AW4",
-    authDomain: "gttskills.firebaseapp.com",
-    databaseURL: "https://lostfound-b80fc.firebaseio.com",
-    projectId: "gttskills",
-    storageBucket: "gttskills.appspot.com",
-    messagingSenderId: "858339293867",
+    apiKey: "AIzaSyApR-_V3V_nziMdh8FU2aC_q82QZxP_L74",
+    authDomain: "leohrskills.firebaseapp.com",
+    databaseURL: "https://leohrskills-default-rtdb.firebaseio.com",
+    projectId: "leohrskills",
+    storageBucket: "leohrskills.appspot.com",
+    messagingSenderId: "326255268034",
   };
   firebase.initializeApp(config);
 
